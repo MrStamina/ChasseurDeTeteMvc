@@ -1,0 +1,60 @@
+﻿@model HeadHunterProject.ViewModel.CandidatFormViewModel
+@{
+    ViewBag.Title = Model.Title;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="centrage">@Model.Title</h2>
+
+@using (Html.BeginForm("Save", "Candidat"))
+{
+    <div class="centrage">
+        <div class="form-group">
+            <label for="Nom">Nom</label>
+            @Html.TextBoxFor(m => m.Candidat.Nom, new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.Candidat.Nom)
+        </div>
+        <div class="form-group">
+            <label for="Prenom">Prénom</label>
+            @Html.TextBoxFor(m => m.Candidat.Prenom, new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.Candidat.Prenom)
+        </div>
+        <div class="form-group">
+            <label for="DateNaissance">Date de Naissance</label>
+            @Html.TextBoxFor(m => m.Candidat.DateNaissance, new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.Candidat.DateNaissance)
+        </div>
+        <div class="form-group">
+            <label for="Telephone">Telephone</label>
+            @Html.TextBoxFor(m => m.Candidat.Telephone, new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.Candidat.Telephone)
+        </div>
+        <div class="form-group">
+            <label for="AdresseMail">Adresse Mail</label>
+            @Html.TextBoxFor(m => m.Candidat.AdresseMail, new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.Candidat.AdresseMail)
+        </div>
+        <div class="form-group">
+            @*<label for="SituationPro">En poste?</label>*@
+            @Html.LabelFor(m => m.Candidat.SituationPro)
+            @Html.CheckBoxFor(m => m.Candidat.SituationPro)
+            @*<label for="Mobilite">Etes-vous mobile?</label>*@
+            @Html.LabelFor(m => m.Candidat.Mobilite)
+            @Html.CheckBoxFor(m => m.Candidat.Mobilite)
+        </div>
+
+        <div class="form-group">
+            <label for="SituationFamilialeId">Situation Familiale</label>
+            @Html.DropDownListFor(m => m.Candidat.SituationFamilialeId, new SelectList(Model.SituationFamiliale, "Id", "Libelle"), "Selectionnez votre situation familiale", new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.Candidat.SituationFamilialeId)
+        </div>
+        <div class="form-group">
+            <label for="PoleEmbaucheId">Secteur Géographique </label>
+            @Html.DropDownListFor(m => m.Candidat.PoleEmbaucheId, new SelectList(Model.PoleEmbauche, "Id", "Libelle"), "Selectionnez votre secteur géographique", new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.Candidat.PoleEmbaucheId)
+        </div>
+        @Html.HiddenFor(m => m.Candidat.Id)
+        <button type="submit" class="btn btn-primary">Valider</button>
+    </div>
+}
+
