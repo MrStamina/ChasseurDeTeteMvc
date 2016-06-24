@@ -30,6 +30,11 @@ namespace HeadHunterProject.Controllers
             var situFamiliale = _context.SituationFamiliale.ToList();
             var viewModel = new CandidatFormViewModel
             {
+                Candidat = new Candidat
+                {
+                    DateNaissance = null
+                },              
+                
                 PoleEmbauche = poleEmbauche,
                 SituationFamiliale = situFamiliale,
             };

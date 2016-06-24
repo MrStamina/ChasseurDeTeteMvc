@@ -216,11 +216,30 @@
     <Compile Include="Migrations\201606220743307_PopulateSituFamAndSecteur.Designer.cs">
       <DependentUpon>201606220743307_PopulateSituFamAndSecteur.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201606240922014_AddDiplomeModel.cs" />
+    <Compile Include="Migrations\201606240922014_AddDiplomeModel.Designer.cs">
+      <DependentUpon>201606240922014_AddDiplomeModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201606240927211_AddNiveau.cs" />
+    <Compile Include="Migrations\201606240927211_AddNiveau.Designer.cs">
+      <DependentUpon>201606240927211_AddNiveau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201606240929550_PopulateNiveau.cs" />
+    <Compile Include="Migrations\201606240929550_PopulateNiveau.Designer.cs">
+      <DependentUpon>201606240929550_PopulateNiveau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201606240932099_PopulateDiploma.cs" />
+    <Compile Include="Migrations\201606240932099_PopulateDiploma.Designer.cs">
+      <DependentUpon>201606240932099_PopulateDiploma.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Candidat.cs" />
+    <Compile Include="Models\Diplome.cs" />
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\MajeurOuPas.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\Niveau.cs" />
     <Compile Include="Models\PoleEmbauche.cs" />
     <Compile Include="Models\SituationFamiliale.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -240,6 +259,8 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Images\en_construction.jpg" />
+    <Content Include="Images\We-want-you-image.png" />
     <Content Include="Scripts\ai.0.15.0-build58334.js" />
     <Content Include="Scripts\ai.0.15.0-build58334.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -322,6 +343,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201606220743307_PopulateSituFamAndSecteur.resx">
       <DependentUpon>201606220743307_PopulateSituFamAndSecteur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201606240922014_AddDiplomeModel.resx">
+      <DependentUpon>201606240922014_AddDiplomeModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201606240927211_AddNiveau.resx">
+      <DependentUpon>201606240927211_AddNiveau.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201606240929550_PopulateNiveau.resx">
+      <DependentUpon>201606240929550_PopulateNiveau.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201606240932099_PopulateDiploma.resx">
+      <DependentUpon>201606240932099_PopulateDiploma.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

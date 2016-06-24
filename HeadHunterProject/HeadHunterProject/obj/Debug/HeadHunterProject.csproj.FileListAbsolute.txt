@@ -97,9 +97,13 @@ C:\Users\Cdi07\Desktop\GitHub\ChasseurDeTeteMvc\HeadHunterProject\HeadHunterProj
 C:\Users\Cdi07\Desktop\GitHub\ChasseurDeTeteMvc\HeadHunterProject\HeadHunterProject\bin\fr\Microsoft.Owin.Security.Twitter.resources.dll
 C:\Users\Cdi07\Desktop\GitHub\ChasseurDeTeteMvc\HeadHunterProject\HeadHunterProject\bin\fr\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
 C:\Users\Cdi07\Desktop\GitHub\ChasseurDeTeteMvc\HeadHunterProject\HeadHunterProject\obj\Debug\HeadHunterProject.csprojResolveAssemblyReference.cache
-C:\Users\Cdi07\Desktop\GitHub\ChasseurDeTeteMvc\HeadHunterProject\HeadHunterProject\obj\Debug\HeadHunterProject.dll
-C:\Users\Cdi07\Desktop\GitHub\ChasseurDeTeteMvc\HeadHunterProject\HeadHunterProject\obj\Debug\HeadHunterProject.pdb
 C:\Users\Cdi07\Desktop\GitHub\ChasseurDeTeteMvc\HeadHunterProject\HeadHunterProject\obj\Debug\HeadHunterProject.Migrations.InitializeDatabase.resources
-C:\Users\Cdi07\Desktop\GitHub\ChasseurDeTeteMvc\HeadHunterProject\HeadHunterProject\obj\Debug\HeadHunterProject.csproj.GenerateResource.Cache
 C:\Users\Cdi07\Desktop\GitHub\ChasseurDeTeteMvc\HeadHunterProject\HeadHunterProject\obj\Debug\HeadHunterProject.Migrations.InitNewModels.resources
 C:\Users\Cdi07\Desktop\GitHub\ChasseurDeTeteMvc\HeadHunterProject\HeadHunterProject\obj\Debug\HeadHunterProject.Migrations.PopulateSituFamAndSecteur.resources
+C:\Users\Cdi07\Desktop\GitHub\ChasseurDeTeteMvc\HeadHunterProject\HeadHunterProject\obj\Debug\HeadHunterProject.csproj.GenerateResource.Cache
+C:\Users\Cdi07\Desktop\GitHub\ChasseurDeTeteMvc\HeadHunterProject\HeadHunterProject\obj\Debug\HeadHunterProject.dll
+C:\Users\Cdi07\Desktop\GitHub\ChasseurDeTeteMvc\HeadHunterProject\HeadHunterProject\obj\Debug\HeadHunterProject.pdb
+C:\Users\Cdi07\Desktop\GitHub\ChasseurDeTeteMvc\HeadHunterProject\HeadHunterProject\obj\Debug\HeadHunterProject.Migrations.AddDiplomeModel.resources
+C:\Users\Cdi07\Desktop\GitHub\ChasseurDeTeteMvc\HeadHunterProject\HeadHunterProject\obj\Debug\HeadHunterProject.Migrations.AddNiveau.resources
+C:\Users\Cdi07\Desktop\GitHub\ChasseurDeTeteMvc\HeadHunterProject\HeadHunterProject\obj\Debug\HeadHunterProject.Migrations.PopulateNiveau.resources
+C:\Users\Cdi07\Desktop\GitHub\ChasseurDeTeteMvc\HeadHunterProject\HeadHunterProject\obj\Debug\HeadHunterProject.Migrations.PopulateDiploma.resources
